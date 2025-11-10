@@ -1,0 +1,471 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "narrow": true,
+        "padding_top": 60,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_i7BBed": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Q4Kdi8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_PcPjQi": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>WEIGHT LOSS/ENERGY</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_arLf4r": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nutritional supplements designed for Women to assist in management of Weight Loss & Energy. </strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_7Hwa3G": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://beautyfit.com/collections/weight-loss-energy-supplements-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Q4Kdi8",
+        "heading_PcPjQi",
+        "text_arLf4r",
+        "button_7Hwa3G"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/stron4.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pKPG8N": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_ERF8C8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_D7FbYM": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>FITNESS & PROTEIN</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_chYGGA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Fitness & Protein for Women - Look Beautiful! Feel Strong! BeautyFit® USA </strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_K7JCDD": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/fitness-protein-bcca-pre-workout-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ERF8C8",
+        "heading_D7FbYM",
+        "text_chYGGA",
+        "button_K7JCDD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/strong2.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_egGUEF": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_ReJbFY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_GYf6gL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Digestion/Gut Health</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_bWC9fj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Digestion and gut health products formulated with the finest ingredients to promote overall gut health, improve digestive function, and support a healthy microbiome.</strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_FkLDge": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/digestion-gut-health",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_ReJbFY",
+        "heading_GYf6gL",
+        "text_bWC9fj",
+        "button_FkLDge"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/digestive-gut-health.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cq7Drf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_BLDNxm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_DhTNDd": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>SKIN & BEAUTY CARE</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_R33DXJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Skin & Beauty Care for Women - Healthy Skin! Beautiful Self! BeautyFit® USA </strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_DKnnRp": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://beautyfit.com/collections/skin-beauty-care-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BLDNxm",
+        "heading_DhTNDd",
+        "text_R33DXJ",
+        "button_DKnnRp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/health-bf.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_qMfrzC": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_DX3PEA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_9trEJP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Mood Support</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_XNegPC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nutritional supplements designed for Women to assist in management of Mood and Hormones. </strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_THicTh": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/mood-support",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DX3PEA",
+        "heading_9trEJP",
+        "text_XNegPC",
+        "button_THicTh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/mood-support-bf.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gUAjqr": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_3JPdPd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "BEAUTYFIT® USA",
+            "subheading_size": "h4",
+            "secondary_color": false
+          }
+        },
+        "heading_bhCNdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Health & Wellness</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_AENtU8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Nutritional supplements for Women  improving your daily overall approach in health & wellness </strong></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_gfdQgg": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "shopify://collections/health-wellness-women-supplements-on-line",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_3JPdPd",
+        "heading_bhCNdb",
+        "text_AENtU8",
+        "button_gfdQgg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/health7.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "176244216751a9037b": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_agg_section_UgYFzD": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "hide_thumbnails": false,
+            "product_handle": "",
+            "aggregated": true,
+            "data-limit": 20,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_agg_section_UgYFzD"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_i7BBed",
+    "image_with_text_pKPG8N",
+    "image_with_text_egGUEF",
+    "image_with_text_cq7Drf",
+    "image_with_text_qMfrzC",
+    "image_with_text_gUAjqr",
+    "176244216751a9037b"
+  ]
+}

@@ -1,0 +1,1228 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "image_bBBb6C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BF-HALLOWEEN-Homepage-desktop-v1_copy_9cb6d837-90de-44f3-b6b0-5a96a75af70a.jpg",
+            "image_mobile": "shopify://shop_images/BF-HALLOWEEN-hompage-mobile-v1_copy.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/customer-favorites-2/products/onyx-advanced-rapid-fat-burner-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_z4wctL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BF_Banner_2000x800_onyx-2_1512x-min_1728x_a8b5a5a8-5636-4533-a212-fc2d8ded2f4f.webp",
+            "image_mobile": "shopify://shop_images/4EC5C698-3171-46DD-B5FA-525AB2EF4002_1_105_c.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/customer-favorites-2/products/onyx-advanced-rapid-fat-burner-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_fzmXeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/beautybum-anti-cellulate-cream-dt.jpg",
+            "image_mobile": "shopify://shop_images/beautybum-anti-cellulate-cream.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/weight-loss-energy-supplements-for-women/products/beautybum-anti-cellulite-cream-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_7GnTgP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BF-SLENDER-HP-v1_copy_6a5912d4-7a25-41c3-82d9-91e2e923dd7d.jpg",
+            "image_mobile": "shopify://shop_images/bf-SLENDER-MOBILE_copy_f2abac6f-606b-4f5a-aab4-39b1689b124b.jpg",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/weight-loss-energy-supplements-for-women/products/beauty-slender-stimulant-free-weight-loss-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_FMw4eW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/C7142A70-8D8E-4DD1-A649-1C9962294F36.png",
+            "image_mobile": "shopify://shop_images/72E32F4D-5A83-442A-B052-53F991C5CC03.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/sale/products/glow-go-hydrolyzed-collagen-energy",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        },
+        "image_aLaXC6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2B98DE1D-312F-4AF7-917A-B020F0FBB52C.png",
+            "image_mobile": "shopify://shop_images/4_0be8d5c9-d13e-4bdb-9a7d-ffb23ca669b1.png",
+            "image_position": "center center",
+            "text_box_position": "middle-center",
+            "subheading": "",
+            "subheading_size": "h5",
+            "heading": "",
+            "heading_size": "h1",
+            "heading_tag": "h2",
+            "text": "",
+            "text_size": "typeset",
+            "button_label": "",
+            "button_link": "https://beautyfit.com/collections/sale/products/beautyrecover%C2%AE-hydration-recovery",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "image_bBBb6C",
+        "image_z4wctL",
+        "image_fzmXeN",
+        "image_7GnTgP",
+        "image_FMw4eW",
+        "image_aLaXC6"
+      ],
+      "settings": {
+        "slideshow_type": "legacy",
+        "text_alignment": "left",
+        "image_ratio": "adapt_first",
+        "autorotate": true,
+        "autorotate_speed": 7,
+        "full_width": true,
+        "image_behavior": "none",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt_first",
+        "show_text_below": false,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ffffff",
+        "colors_overlay": "#1a1b18",
+        "colors_overlay_opacity": 0,
+        "colors_navigation_text": "#ffffff",
+        "colors_navigation_background": "#1a1b18",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-0": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEAUTYFIT® A WAY OF LIFE IN NUTRITION.",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At BeautyFit®, our mission is to educate & inspire women in fitness nutrition to feel beautiful.</p>",
+            "text_size": "typeset3",
+            "secondary_color": false,
+            "highlight_phrases": "educate &amp; inspire",
+            "highlight_style": "underline"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#fdfdfd",
+        "colors_highlight": "#d72c0d",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collection_list_ACzfrp": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_TFwgcp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "health-wellness-women-supplements-on-line",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_tynnbE": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "fitness-protein-bcca-pre-workout-for-women",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_jrC3am": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "weight-loss-energy-supplements-for-women",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_frVFgC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "digestion-gut-health",
+            "image_position": "center center"
+          }
+        },
+        "featured_collection_9MP4qp": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mood-support",
+            "image_position": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_TFwgcp",
+        "featured_collection_tynnbE",
+        "featured_collection_jrC3am",
+        "featured_collection_frVFgC",
+        "featured_collection_9MP4qp"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "show_view_all": false,
+        "show_divider": false,
+        "columns_desktop": 5,
+        "heading": "Health & Wellness Focus",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "portrait",
+        "apply_overlay": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_wGUbeX": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "customer-favorites-2",
+        "products_to_show": 4,
+        "horizontal_scroll": true,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "OUR BEST SELLERS",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rFq93N": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ANBdGw": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our <em><strong>Special</strong></em><em> </em>Offer for You</p>",
+            "heading_size": "h1",
+            "heading_tag": "div"
+          }
+        },
+        "text_dfF7b9": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>Get <strong>40%</strong> off specific items - use code: <strong>SCARY40</strong> at checkout. Don’t miss this <strong>limited-time</strong> offer!<br/><br/></p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_yWYwX9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https://beautyfit.com/collections/customer-favorites-2/products/onyx-advanced-rapid-fat-burner-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ANBdGw",
+        "text_dfF7b9",
+        "button_yWYwX9"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/F1BBCD74-7E3A-4B8A-9AAC-7E2D20613F1C_1_105_c.jpg",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "500px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_g9gtpx": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_Vd7d34": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Health & Wellness</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_9bccrQ": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Mood Support</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_Ptyh9B": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Beauty & Self-Care</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_eR3iJC": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Weight Loss & Energy</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_Vd7d34",
+        "announcement_9bccrQ",
+        "announcement_Ptyh9B",
+        "announcement_eR3iJC"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#d72c0d",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_tabs_raYnWT": {
+      "type": "featured-tabs",
+      "blocks": {
+        "tab_hgiaCf": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Best Seller",
+            "collection": "frontpage",
+            "products_to_show": 4,
+            "image_ratio": "square",
+            "image_position": "center center",
+            "enable_image_fill": true,
+            "show_secondary_image": true,
+            "show_quick_buy": true,
+            "show_vendor": true,
+            "show_rating": false,
+            "enable_quick_view": true
+          }
+        },
+        "tab_hTgqQG": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Health & Wellness",
+            "collection": "health-wellness-women-supplements-on-line",
+            "products_to_show": 4,
+            "image_ratio": "square",
+            "image_position": "center center",
+            "enable_image_fill": true,
+            "show_secondary_image": true,
+            "show_quick_buy": true,
+            "show_vendor": true,
+            "show_rating": false,
+            "enable_quick_view": true
+          }
+        },
+        "tab_Q3gNaj": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Skin & Beauty Care",
+            "collection": "skin-beauty-care-for-women",
+            "products_to_show": 4,
+            "image_ratio": "square",
+            "image_position": "center center",
+            "enable_image_fill": true,
+            "show_secondary_image": true,
+            "show_quick_buy": true,
+            "show_vendor": true,
+            "show_rating": false,
+            "enable_quick_view": true
+          }
+        },
+        "tab_EULX83": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Bundles",
+            "collection": "bundles",
+            "products_to_show": 4,
+            "image_ratio": "square",
+            "image_position": "center center",
+            "enable_image_fill": true,
+            "show_secondary_image": true,
+            "show_quick_buy": true,
+            "show_vendor": true,
+            "show_rating": false,
+            "enable_quick_view": true
+          }
+        },
+        "tab_z4FA6b": {
+          "type": "tab",
+          "settings": {
+            "tab_title": "Sales & New Arrivals",
+            "collection": "sale",
+            "products_to_show": 4,
+            "image_ratio": "adapt",
+            "image_position": "center center",
+            "enable_image_fill": true,
+            "show_secondary_image": true,
+            "show_quick_buy": true,
+            "show_vendor": true,
+            "show_rating": false,
+            "enable_quick_view": true
+          }
+        }
+      },
+      "block_order": [
+        "tab_hgiaCf",
+        "tab_hTgqQG",
+        "tab_Q3gNaj",
+        "tab_EULX83",
+        "tab_z4FA6b"
+      ],
+      "name": "Featured Tabs",
+      "settings": {
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "<p>Shop Our<em><strong>Top Picks</strong></em></p>",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": false,
+        "secondary_image_max": 1,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "reveal-banner": {
+      "type": "reveal-banner",
+      "blocks": {
+        "subheading": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Add a tagline",
+            "subheading_size": "h5",
+            "secondary_color": false
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Banner heading",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "slide": {
+          "type": "slide",
+          "settings": {
+            "heading": "Uncover The Beauty In You!",
+            "heading_size": "h2",
+            "heading_tag": "h2",
+            "text": "<p>Shop our entire collection of products based on your own fitness and lifestyle goals.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "button_label": "Shop Now",
+            "button_link": "shopify://collections/customer-favorites-2",
+            "button_size": "medium",
+            "button_style_secondary": false,
+            "colors_button_label": "#ffffff",
+            "colors_button_background": "#1a1b18",
+            "colors_text": "#1a1b18",
+            "colors_background": "#77cefe",
+            "gradient_background": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading",
+        "heading",
+        "text",
+        "slide"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/F5D6744C-B04F-42D1-9203-302E185CE100.png",
+        "image_position": "center center",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "750px",
+        "full_width": true,
+        "show_divider": false,
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "400px",
+        "show_text_below": false,
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 12,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-0": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Balance Your Body & Mind</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Balance is essential in supporting women's health and beauty needs. It involves a natural focus on achieving overall well-being of the mind, body, and soul. Physical attractiveness is attained through healthy eating, a positive mindset, and consistent exercise.</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/FA7DE828-CFFB-4D76-A287-67F79316D02C.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>The Best & Highest Quality Ingredients</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BeautyFit® is devoted to providing you with the finest products and valuable insights to boost the health of you and your family. Embrace the 'Be Beautiful... Be You!®' philosophy with BeautyFit®. Begin your path towards a more beautiful version of yourself now!</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/30E462A9-B19F-42C1-A601-0475BC98B6D8_1_105_c.jpg",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "adapt",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "250px",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "bundles",
+        "products_to_show": 4,
+        "horizontal_scroll": false,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Explore Bundles & Save",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "heading_tag": "h1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "adapt",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "secondary_image_max": 1,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": false,
+        "enable_color_swatches": true,
+        "enable_countdown": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_3N99Gz": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_ppFVqM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/D123984A-D6C0-4B47-B21C-1011B1FBF5FD.png",
+            "title": "Thank God for Beautyfit!",
+            "show_star": true,
+            "star_rating": 5,
+            "author": "-Jane D.",
+            "verified_badge": "Verified buyer of hair & energy",
+            "title_size": "h3",
+            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_QmR8dp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/D123984A-D6C0-4B47-B21C-1011B1FBF5FD.png",
+            "title": "Thank God for Beautyfit!",
+            "show_star": true,
+            "star_rating": 5,
+            "author": "-Jane D.",
+            "verified_badge": "Verified buyer of hair & energy",
+            "title_size": "h3",
+            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_KzQtGh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/D123984A-D6C0-4B47-B21C-1011B1FBF5FD.png",
+            "title": "Thank God for Beautyfit!",
+            "show_star": true,
+            "star_rating": 4,
+            "author": "-Jane D.",
+            "verified_badge": "Verified buyer of hair & energy",
+            "title_size": "h3",
+            "text": "<p>\"Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.\"</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "column_ppFVqM",
+        "column_QmR8dp",
+        "column_KzQtGh"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "text_alignment": "left",
+        "show_divider": false,
+        "image_width": "full",
+        "columns_desktop": 3,
+        "open_in_new_tab": false,
+        "heading": "<p><em>Our customer community</em></p>",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "mobile_text_alignment": "left",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "featured-product": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "title_tag": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {}
+        },
+        "collapsible_tab-0": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "1. Collapsible row",
+            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "icon": "none",
+            "heading": "2. Collapsible row",
+            "content": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "page": ""
+          }
+        },
+        "read_more": {
+          "type": "read_more",
+          "settings": {
+            "show_icon": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "description",
+        "collapsible_tab-0",
+        "collapsible_tab-1",
+        "read_more",
+        "buy_buttons",
+        "share"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "glow-go-hydrolyzed-collagen-energy",
+        "layout": "media_first",
+        "full_width": false,
+        "show_divider": false,
+        "show_featured_media": false,
+        "hide_variants": false,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "image_ratio": "adapt_first",
+        "image_position": "center center",
+        "enable_layered_images": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich-text-1": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Express yourself with",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>#instagram</p>",
+            "text_size": "typeset2",
+            "secondary_color": true,
+            "highlight_phrases": "",
+            "highlight_style": "marker"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "featured_blog_td3mND": {
+      "type": "featured-blog",
+      "blocks": {
+        "title_E6zfWB": {
+          "type": "title",
+          "settings": {
+            "show_date": false,
+            "show_author": false,
+            "show_comment_count": false
+          }
+        },
+        "summary_NhCcgY": {
+          "type": "summary",
+          "settings": {}
+        },
+        "read_more_QLtyMH": {
+          "type": "read_more",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title_E6zfWB",
+        "summary_NhCcgY",
+        "read_more_QLtyMH"
+      ],
+      "settings": {
+        "blog": "beautyblog",
+        "post_limit": 3,
+        "show_view_all": true,
+        "show_divider": false,
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_image": true,
+        "image_ratio": "landscape",
+        "image_position": "center center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "17120708935584cc87": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_gallery_carousel_section_hDpwz3": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-gallery-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 60,
+            "itemsPerView": 5,
+            "mobileItemsPerView": 1,
+            "imageRatio": "1",
+            "reviewerNameColor": "#ffffff",
+            "starsColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "none",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_gallery_carousel_section_hDpwz3"
+      ],
+      "settings": {
+        "include_margins": true,
+        "show_divider": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "guarantees": {
+      "type": "guarantees",
+      "blocks": {
+        "guarantee-0": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "leaf",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h4",
+            "text": "<p>Welcome to our store.</p>"
+          }
+        },
+        "guarantee-1": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "globe",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h4",
+            "text": "<p>Welcome to our store.</p>"
+          }
+        },
+        "guarantee-2": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "recycle",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h4",
+            "text": "<p>Welcome to our store.</p>"
+          }
+        },
+        "guarantee-3": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shield",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "Guarantee heading",
+            "title_size": "h4",
+            "text": "<p>Welcome to our store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "guarantee-0",
+        "guarantee-1",
+        "guarantee-2",
+        "guarantee-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "default",
+        "column_alignment": "center",
+        "horizontal_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "columns_desktop": 4,
+        "heading": "",
+        "heading_size": "h1",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "use_custom_colors": false,
+        "colors_icon": "#ffffff",
+        "colors_text": "#1a1b18",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_hrgHxA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kJ7xdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Special Offer",
+            "heading_size": "h0",
+            "heading_tag": "h2"
+          }
+        },
+        "text_JCmGEK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Get </em><em><strong>40%</strong></em><em> off specific items</em> - use code: <strong>SCARY40</strong> at checkout. Don’t miss this <strong>limited-time</strong> offer!</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_WrMNXy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "https://beautyfit.com/collections/customer-favorites-2/products/onyx-advanced-rapid-fat-burner-for-women",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kJ7xdb",
+        "text_JCmGEK",
+        "button_WrMNXy"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/F1BBCD74-7E3A-4B8A-9AAC-7E2D20613F1C_1_105_c.jpg",
+        "image_position": "center center",
+        "text_box_position": "middle-left",
+        "text_alignment": "left",
+        "image_ratio": "450px",
+        "show_text_box": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_text_alignment": "center",
+        "mobile_image_ratio": "auto",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "colors_button_label": "#1a1b18",
+        "colors_button_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_overlay": "#000000",
+        "colors_overlay_opacity": 28,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text-0",
+    "collection_list_ACzfrp",
+    "featured_collection_wGUbeX",
+    "image_with_text_rFq93N",
+    "scrolling_promotion_g9gtpx",
+    "featured_tabs_raYnWT",
+    "reveal-banner",
+    "image-with-text-0",
+    "image-with-text-1",
+    "featured-collection",
+    "multicolumn_3N99Gz",
+    "featured-product",
+    "rich-text-1",
+    "featured_blog_td3mND",
+    "17120708935584cc87",
+    "guarantees",
+    "image_banner_hrgHxA"
+  ]
+}
