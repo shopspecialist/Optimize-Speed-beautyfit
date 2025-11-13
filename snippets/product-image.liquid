@@ -92,6 +92,15 @@
     <div class="product__media image-animate media media--{{ image_ratio }}{% if mobile_image_ratio %} media-mobile--{{ mobile_image_ratio }}{% endif %}"
       {%- if image_ratio == 'adapt' or mobile_image_ratio == 'adapt' %} style="--image-ratio-percent: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;"{% endif -%}
     >
+    {% if lazyload == false %}
+      {{ media.preview_image | image_url: width: 1500 | image_tag:
+        loading: image_loading,
+        sizes: sizes,
+        widths: widths,
+        alt: alt,
+        is: 'lazy-image' |  replace: ' src=', '  src='
+      }}
+    {% else %}
       {{ media.preview_image | image_url: width: 1500 | image_tag:
         loading: image_loading,
         sizes: sizes,
@@ -99,6 +108,7 @@
         alt: alt,
         is: 'lazy-image'
       }}
+    {% endif %}
     </div>
   </use-animate>
   {%- if zoom -%}
