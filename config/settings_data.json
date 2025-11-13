@@ -127,7 +127,7 @@
       },
       "6810535121229352664": {
         "type": "shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "markets_rounding": false,
           "send_gtag_atc": false,
@@ -146,7 +146,7 @@
       },
       "753360823172887587": {
         "type": "shopify://apps/crazyrocket-spin-wheel-pop-ups/blocks/crazyrocket-script/31762d47-a891-447e-9769-ef8b68621ed4",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       },
       "11560147490181472608": {
