@@ -1,10 +1,17 @@
 <style>
 html:not(.xh) .slideshow__right .slideshow__slide:nth-child(n+2) img{
     opacity: 0;
-}    
-html:not(.scld) .transition-cover {
+}  
+html:not(.xh) .slideshow__image img{
+    min-height: 390.4px;
+}   
+@media (min-width: 1200px){
+html:not(.xh) .slideshow__image img{
+    min-height: 614px;
+}}
+/* html:not(.scld) .transition-cover {
     display: none !important;
     opacity: 0 !important;
     visibility: hidden !important;
-}
+} */
 </style>
