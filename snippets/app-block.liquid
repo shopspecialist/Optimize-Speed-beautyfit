@@ -1,3 +1,55 @@
 <!-- BEGIN app block: shopify://apps/conversion/blocks/seona_by_styleai/c2fdd8a2-5abf-48be-ab7f-5378cb014677 -->
  <script type="load" d-src="https://p.usestyle.ai"></script>
 <!-- END app block -->
+
+<!-- BEGIN app block: shopify://apps/monster-cart-upsell-free-gifts/blocks/app-embed/a1b8e58a-bf1d-4e0f-8768-a387c3f643c0 --><script>  
+  window.mu_version = 1.8
+    {% if template contains 'product' %}
+    window.mu_product = {
+            ...{{ product | json }},
+            collections: {{ product.collections | json }},
+            inventory:{ {% for variant in product.variants %}"{{ variant.id }}": {{ variant.inventory_quantity }} ,{% endfor %}},
+            has_only_default_variant: {{ product.has_only_default_variant }},
+        }
+    {% endif %}
+    window.mu_currencies = [{"name": "United States Dollar", "iso_code": "USD", "symbol": "$"},];
+    window.mu_origin = 'beautyfit.com';
+    window.mu_myshopify_domain = 'beautyfitusashop.myshopify.com';
+    window.mu_cart_currency = {{ cart.currency.iso_code | json }};
+    window.mu_cart_items = {{ cart.items | json }};
+    window.mu_money_format = {{ shop.money_format | json }};
+    
+    
+    
+    
+    
+    window.show_item_properties = true
+    
+    
+    
+    
+    
+    window.mu_bag_selector = [];
+    
+    
+    window.mu_hide_when_opened = "";
+    
+</script>
+  <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" /><script>
+    // custom code here
+</script>
+
+  <script>console.log("%cMU: Version 1 in use", "color: white; background: #dc3545; padding: 2px 6px; border-radius: 3px;");</script>
+  <script type="load" d-src="https://cdn.shopify.com/extensions/019a7a7c-4bc2-79db-b87a-3c99e69a98d0/monster-upsells-v2-645/assets/webfont.js"></script>
+  
+    <link d-href="https://cdn.shopify.com/extensions/019a7a7c-4bc2-79db-b87a-3c99e69a98d0/monster-upsells-v2-645/assets/cart.css" rel="stylesheet">
+    <script type="text/javascript">
+      window.assetsPath = "https://cdn.shopify.com/extensions/019a7a7c-4bc2-79db-b87a-3c99e69a98d0/monster-upsells-v2-645/assets/cart_renderer.js".split("cart_renderer.js")[0]
+    </script>
+    <script type="load" d-src="https://cdn.shopify.com/extensions/019a7a7c-4bc2-79db-b87a-3c99e69a98d0/monster-upsells-v2-645/assets/cart_renderer.js"></script>
+  
+
+
+
+<!-- END app block -->
