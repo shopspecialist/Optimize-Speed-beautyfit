@@ -57,8 +57,6 @@
         {% endif %} {% endcomment %}
     {% elsif template contains "product" %}
         {% render "product-css" %}
-    {% else %}
-        {% render "all-css" %}
     {% endif %}
     {%- liquid
       render 'css-variables'
