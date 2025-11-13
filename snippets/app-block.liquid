@@ -53,3 +53,126 @@
 
 
 <!-- END app block -->
+
+<!-- BEGIN app block: shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200 -->
+
+<!-- BEGIN app snippet: pagefly-cro-ab-testing-main -->
+
+
+
+
+{% capture get_code %}
+
+
+<script>
+  (function () {
+    const url = new URL(window.location)
+    const viewParam = url.searchParams.get('view')
+    if (viewParam && viewParam.includes('variant-pf-')) {
+      url.searchParams.set('pf_v', viewParam)
+      url.searchParams.delete('view')
+      window.history.replaceState({}, '', url)
+    }
+  })()
+</script>
+
+
+
+<script type='module'>
+  
+  window.PAGEFLY_CRO = window.PAGEFLY_CRO || {}
+
+  window.PAGEFLY_CRO['data_debug'] = {
+    original_template_suffix: {% if template contains 'index' %}"home"{% elsif template contains "collection" %}{% if template contains "list-collection" %}""{% else %}"all_collections"{% endif %}{% elsif template contains 'product' %}{{ template.suffix | json }}{% else %}""{% endif %},
+    allow_ab_test: false,
+    ab_test_start_time: 0,
+    ab_test_end_time: 0,
+    today_date_time: {{ "now" | date: "%s" | times: 1000 }},
+  }
+  window.PAGEFLY_CRO['GA4'] = { enabled: false}
+</script>
+
+<!-- END app snippet -->
+
+
+
+
+
+
+
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-helper.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-general-helper.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-snap-slider.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-slideshow-v3.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-slideshow-v4.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-glider.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-slideshow-v1-v2.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-product-media.js' defer='defer'></script>
+
+  <script src='https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-product.js' defer='defer'></script>
+
+
+<script id='pagefly-helper-data' type='application/json'>
+  {
+    "page_optimization": {
+      "assets_prefetching": false
+    },
+    "elements_asset_mapper": {
+      "Accordion": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-accordion.js",
+      "Accordion3": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-accordion3.js",
+      "CountDown": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-countdown.js",
+      "GMap1": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-gmap.js",
+      "GMap2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-gmap.js",
+      "GMapBasicV2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-gmap.js",
+      "GMapAdvancedV2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-gmap.js",
+      "HTML.Video": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-htmlvideo.js",
+      "HTML.Video2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-htmlvideo2.js",
+      "HTML.Video3": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-htmlvideo2.js",
+      "BackgroundVideo": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-htmlvideo2.js",
+      "Instagram": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-instagram.js",
+      "Instagram2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-instagram.js",
+      "Insta3": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-instagram3.js",
+      "Tabs": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-tab.js",
+      "Tabs3": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-tab3.js",
+      "ProductBox": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-cart.js",
+      "FBPageBox2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-facebook.js",
+      "FBLikeButton2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-facebook.js",
+      "TwitterFeed2": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-twitter.js",
+      "Paragraph4": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-paragraph4.js",
+
+      "AliReviews": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "BackInStock": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "GloboBackInStock": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "GrowaveWishlist": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "InfiniteOptionsShopPad": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "InkybayProductPersonalizer": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "LimeSpot": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Loox": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Opinew": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Powr": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "ProductReviews": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "PushOwl": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "ReCharge": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Rivyo": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "TrackingMore": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Vitals": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js",
+      "Wiser": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-3rd-elements.js"
+    },
+    "custom_elements_mapper": {
+      "pf-click-action-element": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-click-action-element.js",
+      "pf-dialog-element": "https://cdn.shopify.com/extensions/019a7b82-2e4a-70f5-8165-db35ee963743/pagefly-194/assets/pagefly-dialog-element.js"
+    }
+  }
+</script>
+
+
+<!-- END app block -->
+{% endcapture %}<script>if (!window.mainopt) {document.write({{ get_code | json }});}document.close();</script>
