@@ -1,3 +1,4 @@
+{%  capture lazyloadcss %}
 {%- assign text_direction = 'localization.text_direction_trigger' | t | downcase -%}
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}"
@@ -151,3 +152,4 @@
     {%  render 'foot-content' %}
   </body>
 </html>
+{% endcapture %}{% if template contains 'index' or template contains 'collection' or template contains 'product' %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% else %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% endif %}
