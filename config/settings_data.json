@@ -156,7 +156,7 @@
       },
       "9239498329101930193": {
         "type": "shopify://apps/recart-sms-list-growth/blocks/loader/c3f195f0-9f15-4ebc-9a44-84989a1ee8d1",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       },
       "11349500561483629931": {
