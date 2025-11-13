@@ -94,7 +94,7 @@
       },
       "4418769784723267737": {
         "type": "shopify://apps/styleai/blocks/seona_by_styleai/c2fdd8a2-5abf-48be-ab7f-5378cb014677",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       },
       "16278478101612877664": {
@@ -122,7 +122,7 @@
       },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       },
       "6810535121229352664": {
