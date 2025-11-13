@@ -12,16 +12,29 @@ html:not(.xh) .slideshow__right:not(.flickity-enabled) .slideshow__slide {
     left: 0;
     top: 0;
 }
-/* 
-html:not(.xh) .slideshow__image img{
-    min-height: 390.4px;
-}   
-@media (min-width: 1200px){
-html:not(.xh) .slideshow__image img{
-    min-height: 614px;
-}}html:not(.scld) .transition-cover {
-    display: none !important;
-    opacity: 0 !important;
-    visibility: hidden !important;
-} */
+html:not(.xh) a.header__heading-link.focus-inset img {
+    min-height: 44px;
+}
+@media screen and (min-width: 990px) {
+    .header--middle-left {
+        grid-template-areas: "heading navigation icons";
+        grid-template-columns: auto 1fr auto;
+        column-gap: 2rem;
+    }
+    .header--middle-left .header__inline-menu {
+        min-width: 45rem;
+    }
+    .header--middle-left .header__inline-menu {
+        margin-inline-start: 0;
+        text-align: end;
+    }    
+}
+@media screen and (min-width: 1200px) {
+    .header--middle-left .header__right {
+        margin-inline-start: 8rem;
+    }
+    html:not(.xh) a.header__heading-link.focus-inset img {
+        min-height: 44px;
+    }
+}
 </style>
