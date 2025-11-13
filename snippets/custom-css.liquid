@@ -2,14 +2,24 @@
 html:not(.xh) .slideshow__right .slideshow__slide:nth-child(n+2) img{
     opacity: 0;
 }  
+html:not(.xh) .slideshow__right:not(.flickity-enabled):not(:has(.flickity-viewport)):before {
+    content: "";
+    display: block;
+    padding-bottom: var(--image-ratio-percent, 56.25%);
+}
+html:not(.xh) .slideshow__right:not(.flickity-enabled) .slideshow__slide {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/* 
 html:not(.xh) .slideshow__image img{
     min-height: 390.4px;
 }   
 @media (min-width: 1200px){
 html:not(.xh) .slideshow__image img{
     min-height: 614px;
-}}
-/* html:not(.scld) .transition-cover {
+}}html:not(.scld) .transition-cover {
     display: none !important;
     opacity: 0 !important;
     visibility: hidden !important;
