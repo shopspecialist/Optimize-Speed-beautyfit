@@ -83,7 +83,7 @@
   window.PAGEFLY_CRO = window.PAGEFLY_CRO || {}
 
   window.PAGEFLY_CRO['data_debug'] = {
-    original_template_suffix: {% if template contains 'index' %}"home"{% elsif template contains "collection" %}{% if template contains "list-collection" %}""{% else %}"all_collections"{% endif %}{% elsif template contains 'product' %}{{ template.suffix | json }}{% else %}""{% endif %},
+    original_template_suffix: "{% if template contains 'index' %}home{% elsif template contains 'collection' %}{% unless template contains 'list-collection' %}all_collections{% endunless %}{% else %}{{ template.suffix }}{% endif %}",
     allow_ab_test: false,
     ab_test_start_time: 0,
     ab_test_end_time: 0,
