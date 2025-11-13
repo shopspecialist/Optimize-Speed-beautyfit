@@ -10,14 +10,25 @@
         {%- assign widths = '375, 750, 1100, 1500, 1780, 2000, 3000, 3840' -%}
         {%- capture sizes -%}100vw{%- endcapture -%}
       {%- endif -%}
-      {%- liquid
-        if block.settings.image_mobile == blank
-          echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: widths, is: 'lazy-image'
-        else
-          echo block.settings.image_mobile | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'medium-hide large-up-hide', sizes: sizes, widths: widths, is: 'lazy-image'
-          echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'small-hide', sizes: sizes, widths: widths, is: 'lazy-image'
-        endif
-      -%}
+      {% if loading == 'eager' %}
+        {%- liquid
+          if block.settings.image_mobile == blank
+            echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: widths, is: 'lazy-image' | replace: ' src', '  src'
+          else
+            echo block.settings.image_mobile | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'medium-hide large-up-hide', sizes: sizes, widths: widths, is: 'lazy-image' | replace: ' src', '  src'
+            echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'small-hide', sizes: sizes, widths: widths, is: 'lazy-image' | replace: ' src', '  src'
+          endif
+        -%}
+      {% else %}
+        {%- liquid
+          if block.settings.image_mobile == blank
+            echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, sizes: sizes, widths: widths, is: 'lazy-image'
+          else
+            echo block.settings.image_mobile | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'medium-hide large-up-hide', sizes: sizes, widths: widths, is: 'lazy-image'
+            echo block.settings.image | image_url: width: 3840 | image_tag: loading: loading, fetchpriority: fetchpriority, class: 'small-hide', sizes: sizes, widths: widths, is: 'lazy-image'
+          endif
+        -%}
+      {% endif %}
       </div>
   {%- else -%}
     <div class="slideshow__image slideshow__image--placeholder media media--{{ section.settings.image_ratio }} media-mobile--{{ section.settings.mobile_image_ratio }}">
@@ -29,3 +40,4 @@
     <a href="{{ block.settings.button_link }}" class="full-unstyled-link">&nbsp;</a>
   {%- endif -%}
 </div>
+ 
