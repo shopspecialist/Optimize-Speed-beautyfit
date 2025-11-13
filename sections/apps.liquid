@@ -7,10 +7,11 @@
 
 <div class="section--padding{% if section.settings.show_divider %} section--divider{% endif %}">
   <div class="page-width{% unless section.settings.include_margins %} page-width--full-width{% endunless %}">
-    {% for block in section.blocks %}
-      {% capture appblock %}{% render block %}{% endcapture %}
-      {% if appblock contains 'reviews-widget' %}{{ appblock |  replace: ' href=', ' d-href=' }}{% else %}{{ appblock }}{% endif %}
-    {% endfor %}
+    {%- liquid
+      for block in section.blocks
+        render block
+      endfor
+    -%}
   </div>
 </div>
 
