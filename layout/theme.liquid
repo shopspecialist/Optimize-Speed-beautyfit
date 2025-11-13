@@ -49,12 +49,12 @@
 
     {% if template contains "index" %}
         {% render "index-css" %}
-    {% elsif template contains "collection" %}
+    {% comment %} {% elsif template contains "collection" %}
         {% if template contains "list-collection" %}
             {% render 'list-collection-css' %}
         {% else %}
             {% render "collection-css" %}
-        {% endif %}
+        {% endif %} {% endcomment %}
     {% elsif template contains "product" %}
         {% render "product-css" %}
     {% else %}
@@ -165,4 +165,4 @@
     {%  render 'foot-content' %}
   </body>
 </html>
-{% endcapture %}{% if template contains 'index' or template contains 'collection' or template contains 'product' %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% else %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% endif %}
+{% endcapture %}{% if template contains 'index' or template contains 'product' %}{{ lazyloadcss |  replace: 'link href=', 'link d-href=' | replace: 'rel="stylesheet" href', 'rel="stylesheet" d-href' | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% else %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% endif %}
