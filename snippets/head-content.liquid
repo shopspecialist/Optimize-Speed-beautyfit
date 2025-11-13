@@ -18,7 +18,7 @@
           if (
             "SCRIPT" === e[d] &&
             ("web-pixels-manager-setup" === e.id ||
-              e.src.includes('easyslider'))  &&
+              e.src.includes('easyslider') || e.src.includes('klaviyo') || e.innerHTML.includes('klaviyo'))  &&
             1 === e.nodeType
           ) {
             if (e.src) {
