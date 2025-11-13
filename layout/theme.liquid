@@ -46,7 +46,20 @@
       {{ content_for_header2 | replace: ' async="async" ', ' type="load" ' | replace: ' defer="defer" ', ' type="load" ' | replace: " src=", " d-src="| replace: "DOMContentLoaded", "xDOMContentLoaded" | replace: "window.addEventListener('load', asyncLoad, false);", "window.addEventListener('xDOMContentLoaded', asyncLoad, false);" | replace: "addEventListener('load', prefetchAssets);", "addEventListener('xDOMContentLoaded', prefetchAssets);" | replace: "type='text/javascript' async=''", "type='load' " | replace: 'type="module" d-', 'dxt="module" type="load" d-' | replace: 'async dxt="module" type="load"', 'dxt="module"' | replace: '<script type="module">', '<script dxt="module" type="load">'| replace: "type='text/javascript' defer='defer' d-src", "type='load' d-src" | replace: '<script>' , '<script type="load">' | replace: 'type="load" d-src="https://shop.app/checkouts/internal/preloads.js', 'type="lload" d-src="https://shop.app/checkouts/internal/preloads.js' | replace: '<script type="load">var Shopify', '<script>var Shopify' }}
       <script>var trekkie=[];trekkie.integrations=!0;window.BOOMR={},window.BOOMR.version=true;</script>
     {%- endif -%}
-
+    
+    {% if template contains "index" %}
+        {% render "index-css" %}
+    {% elsif template contains "collection" %}
+        {% if template contains "list-collection" %}
+            {% render 'list-collection-css' %}
+        {% else %}
+            {% render "collection-css" %}
+        {% endif %}
+    {% elsif template contains "product" %}
+        {% render "product-css" %}
+    {% else %}
+        {% render "all-css" %}
+    {% endif %}
     {%- liquid
       render 'css-variables'
       echo 'base.css' | asset_url | stylesheet_tag: preload: true
@@ -152,4 +165,4 @@
     {%  render 'foot-content' %}
   </body>
 </html>
-{% endcapture %}{% if template contains 'index' or template contains 'collection' or template contains 'product' %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% else %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% endif %}
+{% endcapture %}{% if template contains 'index' or template contains 'collection' or template contains 'product' %}{{ lazyloadcss | replace: '<link href', '<link d-href' |  replace: 'rel="stylesheet" href', 'rel="stylesheet" d-href' | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% else %}{{ lazyloadcss | replace: '<img src="https', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="https' | replace: '<img src="//', '<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" data-li="st" d-src="//' |  replace: ' srcset=', ' data-li="st" dt=' }}{% endif %}
