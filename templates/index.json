@@ -161,6 +161,74 @@
         "colors_navigation_text": "#ffffff",
         "colors_navigation_background": "#1a1b18",
         "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "scrolling_promotion_g9gtpx": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_Vd7d34": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Health & Wellness</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_9bccrQ": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Mood Support</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_Ptyh9B": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Beauty & Self-Care</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        },
+        "announcement_eR3iJC": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "<p><em><strong>Weight Loss & Energy</strong></em></p>",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_Vd7d34",
+        "announcement_9bccrQ",
+        "announcement_Ptyh9B",
+        "announcement_eR3iJC"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#d72c0d",
+        "colors_background": "#ffb5a7",
+        "gradient_background": "",
+        "padding_top": 36,
         "padding_bottom": 36
       }
     },
@@ -355,74 +423,6 @@
         "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
         "colors_background": "#ffffff",
-        "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "scrolling_promotion_g9gtpx": {
-      "type": "scrolling-promotion",
-      "blocks": {
-        "announcement_Vd7d34": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "<p><em><strong>Health & Wellness</strong></em></p>",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_9bccrQ": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "<p><em><strong>Mood Support</strong></em></p>",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_Ptyh9B": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "<p><em><strong>Beauty & Self-Care</strong></em></p>",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_eR3iJC": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "<p><em><strong>Weight Loss & Energy</strong></em></p>",
-            "text_size": 20,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "announcement_Vd7d34",
-        "announcement_9bccrQ",
-        "announcement_Ptyh9B",
-        "announcement_eR3iJC"
-      ],
-      "name": "t:sections.scrolling-promotion.presets.name",
-      "settings": {
-        "direction": "left",
-        "speed": 1.6,
-        "show_divider": false,
-        "use_custom_colors": true,
-        "colors_icon": "#ffffff",
-        "colors_text": "#d72c0d",
-        "colors_background": "#ffb5a7",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
@@ -1208,10 +1208,10 @@
   "order": [
     "slideshow",
     "rich-text-0",
+    "scrolling_promotion_g9gtpx",
     "collection_list_ACzfrp",
     "featured_collection_wGUbeX",
     "image_with_text_rFq93N",
-    "scrolling_promotion_g9gtpx",
     "featured_tabs_raYnWT",
     "reveal-banner",
     "image-with-text-0",
