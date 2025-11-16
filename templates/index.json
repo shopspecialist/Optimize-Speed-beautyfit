@@ -419,10 +419,10 @@
         "direction": "left",
         "speed": 1.6,
         "show_divider": false,
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "colors_icon": "#ffffff",
         "colors_text": "#d72c0d",
-        "colors_background": "#ffffff",
+        "colors_background": "#ffb5a7",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
