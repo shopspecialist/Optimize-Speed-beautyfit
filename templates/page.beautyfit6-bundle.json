@@ -11,38 +11,6 @@
   "sections": {
     "image_banner_BJRVAw": {
       "type": "image-banner",
-      "blocks": {
-        "heading_Ha7RzK": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1",
-            "heading_tag": "h2"
-          }
-        },
-        "text_wjarLa": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "button_GrkHaV": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_Ha7RzK",
-        "text_wjarLa",
-        "button_GrkHaV"
-      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Screenshot2025-11-17at1.47.28PM.png",
