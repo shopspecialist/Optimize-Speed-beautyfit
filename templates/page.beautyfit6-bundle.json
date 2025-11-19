@@ -145,6 +145,133 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_KQUjge": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dbxePb": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What You Get Inside</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_mG6Qxa": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Nutrition Made Simple",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "text_FeeUYw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Flexible, realistic meals that fuel energy, metabolism, and lean definition.</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "subheading_CmnhHX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Workout Progression Plan",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "text_Jx9jdG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Starts with walking, builds to resistance training — perfect for beginners and women restarting their fitness journey.</p>",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_dbxePb",
+        "subheading_mG6Qxa",
+        "text_FeeUYw",
+        "subheading_CmnhHX",
+        "text_Jx9jdG"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/3girls.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "550px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_xkCy3k": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YfEaXW": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Who It’s For</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_kLjzqt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BeautyFit 6 is for women who are tired of quick fixes and ready for lasting results.</p><p></p><p>Whether you're starting fresh or leveling up your routine, this program meets you where you are — and takes you where you want to be.</p><p></p><ul><li>No gym? No problem.</li><li>No time? We’ve got you covered. All you need is commitment — and the desire to feel unstoppable.</li></ul>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfEaXW",
+        "text_kLjzqt"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Pro_1.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "400px",
+        "enlarge_content": false,
+        "full_width": true,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_NBVhdy": {
       "type": "multicolumn",
       "blocks": {
@@ -327,6 +454,8 @@
   "order": [
     "image_banner_BJRVAw",
     "image_with_text_i4KcRb",
+    "image_with_text_KQUjge",
+    "image_with_text_xkCy3k",
     "multicolumn_NBVhdy",
     "main",
     "featured_product_9QcCFp"
