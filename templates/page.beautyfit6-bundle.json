@@ -55,9 +55,9 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Rectangle_439.png",
-        "image_position": "20% 50%",
+        "image_position": "center center",
         "text_box_position": "middle-left",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "image_ratio": "500px",
         "show_text_box": false,
         "full_width": true,
@@ -70,8 +70,77 @@
         "colors_button_label": "#ffffff",
         "colors_button_background": "#c5091d",
         "colors_text": "#ffffff",
-        "colors_overlay": "#000000",
+        "colors_overlay": "#ffffff",
         "colors_overlay_opacity": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_i4KcRb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_R6JQdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>What Is BeautyFit 6?</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_DhY3Qx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The BeautyFit 6 Program is a step-by-step, 6-week transformation <br/>system designed exclusively for women who are ready to sculpt, <br/>strengthen, and glow — inside and out.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "text_VHRCbM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is your complete reset: simple nutrition, beginner-friendly <br/>workouts, and a structured plan that fits any schedule.</p>",
+            "text_size": "typeset2",
+            "secondary_color": true
+          }
+        },
+        "button_FtCjdy": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start My Transformation",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_R6JQdj",
+        "text_DhY3Qx",
+        "text_VHRCbM",
+        "button_FtCjdy"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Group_14_2.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -257,6 +326,7 @@
   },
   "order": [
     "image_banner_BJRVAw",
+    "image_with_text_i4KcRb",
     "multicolumn_NBVhdy",
     "main",
     "featured_product_9QcCFp"
