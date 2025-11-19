@@ -11,13 +11,54 @@
   "sections": {
     "image_banner_BJRVAw": {
       "type": "image-banner",
+      "blocks": {
+        "heading_QB3xnz": {
+          "type": "heading",
+          "settings": {
+            "heading": "BeautyFit 6",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "subheading_VxBBxn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Your 6-Week Body & Beauty Transformation Program",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "text_hJ7F9Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Transform. Refuel. Redefine.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "button_94QwJX": {
+          "type": "button",
+          "settings": {
+            "button_label": "Start My Transformation",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QB3xnz",
+        "subheading_VxBBxn",
+        "text_hJ7F9Y",
+        "button_94QwJX"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/Rectangle_439.png",
-        "image_position": "center center",
-        "text_box_position": "middle-center",
+        "image_position": "20% 50%",
+        "text_box_position": "middle-left",
         "text_alignment": "center",
-        "image_ratio": "450px",
+        "image_ratio": "500px",
         "show_text_box": false,
         "full_width": true,
         "show_divider": false,
@@ -26,8 +67,8 @@
         "mobile_image_ratio": "auto",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "colors_button_label": "#1a1b18",
-        "colors_button_background": "#ffffff",
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#c5091d",
         "colors_text": "#ffffff",
         "colors_overlay": "#000000",
         "colors_overlay_opacity": 0,
