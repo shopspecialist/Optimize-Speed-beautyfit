@@ -333,11 +333,11 @@
             "heading_tag": "h2"
           }
         },
-        "text_MdRzLz": {
-          "type": "text",
+        "subheading_ypeenY": {
+          "type": "subheading",
           "settings": {
-            "text": "<p>This is the exact system that thousands of women use to:</p>",
-            "text_size": "typeset2",
+            "subheading": "This is the exact system that thousands of women use to:",
+            "subheading_size": "h4",
             "secondary_color": false
           }
         },
@@ -345,15 +345,24 @@
           "type": "text",
           "settings": {
             "text": "<ul><li>Feel stronger & leaner</li></ul><p></p><ul><li>Regain control of their energy and nutrition</li></ul><p></p><ul><li>Sleep better, recover faster, and glow from the inside out</li></ul>",
-            "text_size": "typeset2",
+            "text_size": "typeset",
+            "secondary_color": false
+          }
+        },
+        "subheading_XpHHGE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "You’ll never have to wonder what to do next — it’s all laid out for you. From morning to night, BeautyFit 6 keeps you on track, confident, and in control.",
+            "subheading_size": "h4",
             "secondary_color": false
           }
         }
       },
       "block_order": [
         "heading_ntQWtA",
-        "text_MdRzLz",
-        "text_NBwyjh"
+        "subheading_ypeenY",
+        "text_NBwyjh",
+        "subheading_XpHHGE"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -381,21 +390,73 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_7dDtjV": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_NQjbGB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "For a short time only",
+            "subheading_size": "h3",
+            "secondary_color": false
+          }
+        },
+        "heading_nXBWgm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get the entire BeautyFit 6 Program FREE with any purchase or when you shop the BeautyFit 6 Bundle (40% OFF!)",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "button_Nnahir": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop BeautyFit 6 Bundle",
+            "button_link": "",
+            "button_size": "medium",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_NQjbGB",
+        "heading_nXBWgm",
+        "button_Nnahir"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "left",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#c5091d",
+        "colors_text": "#ffffff",
+        "colors_background": "#212326",
+        "colors_highlight": "#bbff00",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_NBVhdy": {
       "type": "multicolumn",
       "blocks": {
         "column_kHKLw6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/16B57DAC-A1C7-4884-9A5B-8615C4066B67.png",
+            "image": "shopify://shop_images/Group_44.png",
             "title": "ONYX",
             "show_star": false,
             "star_rating": 5,
-            "author": "Jane D.",
-            "verified_badge": "Jane D.",
+            "author": "",
+            "verified_badge": "",
             "title_size": "h3",
-            "text": "<p>Boosts metabolism, elevates energy, supports focus.</p>",
-            "button_label": "Button label",
+            "text": "<p>Boosts metabolism, evevates energy, supports focus.</p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -403,6 +464,23 @@
         "column_Nt8pCf": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Group_45.png",
+            "title": "Hydration",
+            "show_star": false,
+            "star_rating": 5,
+            "author": "",
+            "verified_badge": "",
+            "title_size": "h3",
+            "text": "<p>Electrolyte and mineral replenishment.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_fjHxR6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_39.png",
             "title": "Column",
             "show_star": false,
             "star_rating": 5,
@@ -415,9 +493,42 @@
             "button_style_secondary": false
           }
         },
-        "column_fjHxR6": {
+        "column_hKynNA": {
           "type": "column",
           "settings": {
+            "image": "shopify://shop_images/Group_42.png",
+            "title": "Column",
+            "show_star": false,
+            "star_rating": 5,
+            "author": "Jane D.",
+            "verified_badge": "Jane D.",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_WbrTHV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_41.png",
+            "title": "Column",
+            "show_star": false,
+            "star_rating": 5,
+            "author": "Jane D.",
+            "verified_badge": "Jane D.",
+            "title_size": "h3",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "column_ED4a34": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Group_40.png",
             "title": "Column",
             "show_star": false,
             "star_rating": 5,
@@ -434,18 +545,21 @@
       "block_order": [
         "column_kHKLw6",
         "column_Nt8pCf",
-        "column_fjHxR6"
+        "column_fjHxR6",
+        "column_hKynNA",
+        "column_WbrTHV",
+        "column_ED4a34"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
-        "image_ratio": "landscape",
+        "image_ratio": "square",
         "image_position": "center center",
         "text_alignment": "left",
         "show_divider": false,
         "image_width": "full",
         "columns_desktop": 3,
         "open_in_new_tab": false,
-        "heading": "<p>THE BEAUTYFIT 6 CORE STACK</p>",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "heading_tag": "h2",
@@ -567,6 +681,7 @@
     "image_with_text_xkCy3k",
     "image_with_text_gRq4jA",
     "image_with_text_4PtNK9",
+    "rich_text_7dDtjV",
     "multicolumn_NBVhdy",
     "main",
     "featured_product_9QcCFp"
