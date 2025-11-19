@@ -122,11 +122,11 @@
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/Group_14_2.png",
-        "image_position": "center center",
+        "image_position": "20% 50%",
         "layout": "image_first",
         "text_box_position": "middle",
         "text_alignment": "left",
-        "image_ratio": "650px",
+        "image_ratio": "500px",
         "enlarge_content": false,
         "full_width": false,
         "show_divider": false,
