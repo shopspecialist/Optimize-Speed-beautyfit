@@ -481,14 +481,14 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Group_39.png",
-            "title": "Column",
+            "title": "BeautyBum",
             "show_star": false,
             "star_rating": 5,
-            "author": "Jane D.",
-            "verified_badge": "Jane D.",
+            "author": "",
+            "verified_badge": "",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "text": "<p>Topical skin tighteining cellulite fighting and toning lotion</p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -497,14 +497,14 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Group_42.png",
-            "title": "Column",
+            "title": "BeautySlender",
             "show_star": false,
             "star_rating": 5,
-            "author": "Jane D.",
-            "verified_badge": "Jane D.",
+            "author": "",
+            "verified_badge": "",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "text": "<p>Stim-free fat utilization, supports belly fat elimination and clean energy</p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -513,14 +513,14 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Group_41.png",
-            "title": "Column",
+            "title": "BeautyBurn PM",
             "show_star": false,
             "star_rating": 5,
-            "author": "Jane D.",
-            "verified_badge": "Jane D.",
+            "author": "",
+            "verified_badge": "",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "text": "<p>Stim-free fat utilization, supports belly fat elimination and clean energy</p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
@@ -529,14 +529,14 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/Group_40.png",
-            "title": "Column",
+            "title": "Optimal EAA",
             "show_star": false,
             "star_rating": 5,
-            "author": "Jane D.",
-            "verified_badge": "Jane D.",
+            "author": "",
+            "verified_badge": "",
             "title_size": "h3",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "text": "<p>Stim-free fat utilization, supports belly fat elimination and clean energy</p>",
+            "button_label": "",
             "button_link": "",
             "button_style_secondary": false
           }
