@@ -272,6 +272,115 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_gRq4jA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rJriyf": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>BeautySlender</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_zgtMqj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stim-free fat utilization, supports belly fat elimination and clean energy</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rJriyf",
+        "text_zgtMqj"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Group_34.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "center",
+        "image_ratio": "400px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4PtNK9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ntQWtA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why You’ll Love It</p>",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_MdRzLz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>This is the exact system that thousands of women use to:</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        },
+        "text_NBwyjh": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Feel stronger & leaner</li></ul><p></p><ul><li>Regain control of their energy and nutrition</li></ul><p></p><ul><li>Sleep better, recover faster, and glow from the inside out</li></ul>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ntQWtA",
+        "text_MdRzLz",
+        "text_NBwyjh"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/pexels-mart-production-7894431_1.png",
+        "image_position": "center center",
+        "layout": "text_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "auto",
+        "enable_video_looping": false,
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_NBVhdy": {
       "type": "multicolumn",
       "blocks": {
@@ -456,6 +565,8 @@
     "image_with_text_i4KcRb",
     "image_with_text_KQUjge",
     "image_with_text_xkCy3k",
+    "image_with_text_gRq4jA",
+    "image_with_text_4PtNK9",
     "multicolumn_NBVhdy",
     "main",
     "featured_product_9QcCFp"
